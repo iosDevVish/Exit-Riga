@@ -1,0 +1,21 @@
+PODS:
+  - collection-view-layouts/Core (0.2.2)
+  - collection-view-layouts/FlickrLayout (0.2.2):
+    - collection-view-layouts/Core
+  - collection-view-layouts/Px500Layout (0.2.2):
+    - collection-view-layouts/Core
+
+DEPENDENCIES:
+  - collection-view-layouts/FlickrLayout
+  - collection-view-layouts/Px500Layout
+
+SPEC REPOS:
+  trunk:
+    - collection-view-layouts
+
+SPEC CHECKSUMS:
+  collection-view-layouts: 474ec4cce601a26247737227a97fa6a4eb30213f
+
+PODFILE CHECKSUM: cbb2d9bdd7422c8c17898609c394a5ae35a4771d
+
+COCOAPODS: 1.10.1
